@@ -1,7 +1,22 @@
 
 Newtonian Black Hole สามารถสร้างได้ไม่ยากโดยการใส่ความเร่งให้กับแสงที่อยู่ใกล้หลุมดำ (ในที่นี้คือ Ray ใน Ray-Marching Algo นั่นเอง) ให้ขนาดเป็นไปตาม Inverse Square Law วิธีนี้เป็นแค่การประมาณแต่ผลลัพธ์ถือว่าออกมาดีพอสมควร หากใครสนใจ Exact Solution แนะนำให้ลองดู Schwarzschild metric ซึ่งเป็นคำตอบของ Einstein Field Equation
 
-### เคลื่อนไหว - W A S D Shift Space
+เคลื่อนไหว - W A S D Shift Space
+
+### วิธีติดตั้ง
+ 1. Clone repository 
+```bash
+git clone https://github.com/Quackudy/Double-Pendulum-in-SFML
+```
+2. สร้าง Solution ด้วย Cmake
+```bash
+   mkdir build
+   cd build
+   cmake ..
+```
+3. เปิด Solution และ build
+
+
 
 
 ### Acknowledgement
