@@ -13,6 +13,9 @@ include_directories("${CMAKE_SOURCE_DIR}/libraries/include")
 # Linker directories
 link_directories("${CMAKE_SOURCE_DIR}/libraries/lib")
 
+# Asset file
+file(COPY ${CMAKE_SOURCE_DIR}/assets DESTINATION ${CMAKE_BINARY_DIR}/assets)
+
 # Source files
 set(SOURCES
     Application.cpp
