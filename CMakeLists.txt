@@ -14,7 +14,7 @@ include_directories("${CMAKE_SOURCE_DIR}/libraries/include")
 link_directories("${CMAKE_SOURCE_DIR}/libraries/lib")
 
 # Asset file
-file(COPY ${CMAKE_SOURCE_DIR}/assets DESTINATION ${CMAKE_BINARY_DIR}/assets)
+file(COPY ${CMAKE_SOURCE_DIR}/asset DESTINATION ${CMAKE_BINARY_DIR}/asset)
 
 # Source files
 set(SOURCES
