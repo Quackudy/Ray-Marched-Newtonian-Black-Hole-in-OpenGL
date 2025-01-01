@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Project name
-project(MyOpenGLProject)
+project(Ray-Marched-Newtonian-Black-Hole-in-OpenGL)
 
 # Set the C++ standard
 set(CMAKE_CXX_STANDARD 17)
@@ -15,8 +15,17 @@ link_directories("${CMAKE_SOURCE_DIR}/libraries/lib")
 
 # Source files
 set(SOURCES
-    src/Main.cpp # Add your source files here
+    Application.cpp
+    camera.cpp
+    glad.c
+    shader.cpp
+    stb_image.cpp
+    shader/shader.vs
+    shader/shader.fs
+    shader.h
+    camera.h
 )
+
 
 # Add executable
 add_executable(${PROJECT_NAME} ${SOURCES})
