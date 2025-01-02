@@ -16,12 +16,17 @@ git clone https://github.com/Quackudy/Double-Pendulum-in-SFML
 ```
 3. เปิด Solution และ build
 
-
+### สิ่งที่อาจทำเพิ่ม
+- โครง Accretion Disk
+- ศึกษาการทำ Bloom effect ให้ Accretion Disk
 
 
 ### Acknowledgement
-https://learnopengl.com/Introduction
-https://youtu.be/8sVvxeKI9Pk?si=vgcUen2-U62v9WZi
+https://learnopengl.com/Introduction - สอนการใช้งาน OpenGL และ Code Structure ส่วนใหญ่ใน Repo นี้
+
+https://youtu.be/8sVvxeKI9Pk?si=vgcUen2-U62v9WZi - สอนการทำ Skybox (พื้นหลัง)
+
+https://youtu.be/khblXafu7iA?si=XFPPU1HeUmUSpJXs - แนะนำการทำ Ray Marching
 
 
 
